@@ -37,7 +37,11 @@ section#login {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 0.3s, hight 0.3s;
+    transition-timing-function: ease;
 }
+
 
 section#login > div#imagem {
     background: var(--cor1) url(../imagens/pexels-hngstrm-1406282.jpg) no-repeat;
@@ -51,3 +55,11 @@ section#login > div#formulario {
     padding: 5px;
     display: block;
 }  
+div#formulario > h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+section#login > div#formulario  > p {
+    font-size: 1em;
+}
+    
